@@ -7,7 +7,7 @@ import org.xproce.stubs.BankServiceGrpc;
 
 public class BankGrpcFirstClient {
     public static void main(String[] args) {
-        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost",5555)
+        ManagedChannel managedChannel = ManagedChannelBuilder.forAddress("localhost",9090)
 
                 .usePlaintext()
                 .build();
